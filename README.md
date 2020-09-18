@@ -13,6 +13,7 @@ ____
 ./cloud_sql_proxy -instances "[YOUR_INSTANCE_CONNECTION_NAME]"=tcp:3306
 
 
+____
 
 em outro terminal:
 
@@ -20,5 +21,4 @@ Poetry install
 
 Poetry Shell
 
-python manage.py runserver
-
+python manage.py runserver #para rodar localmente
